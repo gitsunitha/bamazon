@@ -38,3 +38,27 @@ node .\bCustomer.js
 It will give an option to List the products and order the item you want.
 
 ![Image of bCustomer](customer.PNG)
+
+### Manager Role
+
+Run the folllowing :
+
+```
+node .\bManager.js
+```
+
+It will give options as shown in the figure below.
+
+![Image of bMManager](manager.PNG)
+
+### Supervisor Role
+
+Run the folllowing :
+
+```
+node .\bSupervisor.js
+```
+
+It will give the options as shown in the figure below.
+
+![Image of bSupervisor](Supervisor.PNG)
