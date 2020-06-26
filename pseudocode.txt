@@ -1,0 +1,28 @@
+1) Create tables - done
+2) create classes - in progrogress
+3) create outline for first part:
+    file: bamazonCustomer.js
+    1) display all of the items available: ids, names, and prices
+    2) ask which one they want to buy : id
+    3) and how may units
+    3.1) Modify the products table so that there's a product_sales column, 
+        and modify your `bamazonCustomer.js` app so that when a customer purchases anything from the store, 
+        the price of the product multiplied by the quantity purchased is added to the product's product_sales column.
+    4) if enough on hand send the order else ask let the user know when it will be available ?
+
+4) create outline for the second part: bamazonManager.js
+    1) menu options: 
+        * View Products for Sale    
+        * View Low Inventory    
+        * Add to Inventory    
+        * Add New Product
+    2) `View Products for Sale`, the app should list every available item:
+     the item IDs, names, prices, and quantities
+    3) `View Low Inventory`, then it should list all items with an inventory count lower than five
+    4) `Add to Inventory`, your app should display a prompt that will let the manager "add more" of any item currently in the store.
+    5) `Add New Product`, it should allow the manager to add a completely new product to the store.
+5) create outline for third part:
+    file : bamazonSupervisor.js
+    1) View Product Sales by Department , the app should display a summarized table
+    2) Create New Department
+
